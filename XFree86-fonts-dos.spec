@@ -5,8 +5,8 @@ Summary:	XFree86 misc fonts with DOS encodings
 Summary(pl):	Fonty misc z DOSowym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
-Release:	1
-License:	Public domain
+Release:	2
+License:	Public Domain
 Group:		X11/XFree86
 Source0:	XFree86-fonts-misc-%{version}.tar.bz2
 Source1:	%{name}-maps.tar.bz2
