@@ -29,6 +29,7 @@ Summary:	Fixed CP737 fonts
 Summary(pl):	Fonty rastrowe CP737
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP737
 This package contains fixed fonts with CP737 encoding.
@@ -41,6 +42,7 @@ Summary:	Fixed CP775 fonts
 Summary(pl):	Fonty rastrowe CP775
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP775
 This package contains fixed fonts with CP775 encoding.
@@ -53,6 +55,7 @@ Summary:	Fixed CP850 fonts
 Summary(pl):	Fonty rastrowe CP850
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP850
 This package contains fixed fonts with CP850 encoding.
@@ -65,6 +68,7 @@ Summary:	Fixed CP852 fonts
 Summary(pl):	Fonty rastrowe CP852
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP852
 This package contains fixed fonts with CP852 encoding.
@@ -77,6 +81,7 @@ Summary:	Fixed CP855 fonts
 Summary(pl):	Fonty rastrowe CP855
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP855
 This package contains fixed fonts with CP855 encoding.
@@ -89,6 +94,7 @@ Summary:	Fixed CP857 fonts
 Summary(pl):	Fonty rastrowe CP857
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP857
 This package contains fixed fonts with CP857 encoding.
@@ -101,6 +107,7 @@ Summary:	Fixed CP860 fonts
 Summary(pl):	Fonty rastrowe CP860
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP860
 This package contains fixed fonts with CP860 encoding.
@@ -113,6 +120,7 @@ Summary:	Fixed CP861 fonts
 Summary(pl):	Fonty rastrowe CP861
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP861
 This package contains fixed fonts with CP861 encoding.
@@ -125,6 +133,7 @@ Summary:	Fixed CP862 fonts
 Summary(pl):	Fonty rastrowe CP862
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP862
 This package contains fixed fonts with CP862 encoding.
@@ -137,6 +146,7 @@ Summary:	Fixed CP863 fonts
 Summary(pl):	Fonty rastrowe CP863
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP863
 This package contains fixed fonts with CP863 encoding.
@@ -149,6 +159,7 @@ Summary:	Fixed CP864 fonts
 Summary(pl):	Fonty rastrowe CP864
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP864
 This package contains fixed fonts with CP864 encoding.
@@ -161,6 +172,7 @@ Summary:	Fixed CP865 fonts
 Summary(pl):	Fonty rastrowe CP865
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP865
 This package contains fixed fonts with CP865 encoding.
@@ -173,6 +185,7 @@ Summary:	Fixed CP866 fonts
 Summary(pl):	Fonty rastrowe CP866
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP866
 This package contains fixed fonts with CP866 encoding.
@@ -185,6 +198,7 @@ Summary:	Fixed CP869 fonts
 Summary(pl):	Fonty rastrowe CP869
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP869
 This package contains fixed fonts with CP869 encoding.
@@ -197,6 +211,7 @@ Summary:	Fixed CP874 fonts
 Summary(pl):	Fonty rastrowe CP874
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP874
 This package contains fixed fonts with CP874 encoding.
@@ -209,6 +224,7 @@ Summary:	Fixed Mazovia fonts
 Summary(pl):	Fonty rastrowe Mazovia
 Group:		X11/XFree86
 Requires(post,postun):	%{_bindir}/mkfontdir
+Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-Mazovia
 This package contains fixed fonts with Mazovia encoding.
@@ -241,165 +257,100 @@ install -d $RPM_BUILD_ROOT%{_fontsdir}/misc
 install *.pcf.gz $RPM_BUILD_ROOT%{_fontsdir}/misc
 
 %post -n XFree86-fonts-CP737
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP737
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP775
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP775
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP850
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP850
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP852
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP852
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP855
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP855
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP857
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP857
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP860
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP860
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP861
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP861
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP862
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP862
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
-
+fontpostinst misc
 
 %post -n XFree86-fonts-CP863
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP863
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP864
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP864
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP865
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP865
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP866
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP866
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP869
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP869
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-CP874
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-CP874
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %post -n XFree86-fonts-Mazovia
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %postun -n XFree86-fonts-Mazovia
-cd %{_fontsdir}/misc
-umask 022
-%{_bindir}/mkfontdir
+fontpostinst misc
 
 %clean
 rm -rf $RPM_BUILD_ROOT
