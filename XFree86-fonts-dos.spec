@@ -9,7 +9,9 @@ Release:	2
 License:	Public Domain
 Group:		X11/XFree86
 Source0:	XFree86-fonts-misc-%{version}.tar.bz2
+# Source0-md5:	cbadfe4e784653b2795def646b905fb4
 Source1:	%{name}-maps.tar.bz2
+# Source1-md5:	edd71dbe130ae9ce39704ee2ee9e185e
 Source2:	%{name}-Mazovia.map
 BuildRequires:	XFree86-fonts-utils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
