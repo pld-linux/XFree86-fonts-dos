@@ -1,7 +1,7 @@
 
 %define		_prefix		/usr/X11R6
 
-Summary:	XFree86 misc fonts with DOS encodings 
+Summary:	XFree86 misc fonts with DOS encodings
 Summary(pl):	Fonty misc z DOSowym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
@@ -232,7 +232,7 @@ do
 	name=`basename $i .bdf`-Mazovia-0
 	bdftopcf -t $name.bdf | gzip -9 > $name.pcf.gz
 	rm -f $name.bdf
-done	 
+done
 
 %install
 install -d $RPM_BUILD_ROOT%{_fontsdir}/misc
