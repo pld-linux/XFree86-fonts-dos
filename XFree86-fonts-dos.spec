@@ -1,13 +1,10 @@
-
-%define		_prefix		/usr/X11R6
-
 Summary:	XFree86 misc fonts with DOS encodings
 Summary(pl):	Fonty misc z DOS-owym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
-Release:	2
+Release:	3
 License:	Public Domain
-Group:		X11/XFree86
+Group:		Fonts
 Source0:	XFree86-fonts-misc-%{version}.tar.bz2
 # Source0-md5:	cbadfe4e784653b2795def646b905fb4
 Source1:	%{name}-maps.tar.bz2
@@ -15,6 +12,8 @@ Source1:	%{name}-maps.tar.bz2
 Source2:	%{name}-Mazovia.map
 BuildRequires:	XFree86-fonts-utils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_prefix		/usr/X11R6
 
 %description
 This package contains fixed fonts with DOS encodings.
@@ -27,8 +26,8 @@ Fonty zosta³y wziête z dystrybucji XFree86.
 %package -n XFree86-fonts-CP737
 Summary:	Fixed CP737 fonts
 Summary(pl):	Fonty rastrowe CP737
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP737
@@ -40,8 +39,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP737.
 %package -n XFree86-fonts-CP775
 Summary:	Fixed CP775 fonts
 Summary(pl):	Fonty rastrowe CP775
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP775
@@ -53,8 +52,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP775.
 %package -n XFree86-fonts-CP850
 Summary:	Fixed CP850 fonts
 Summary(pl):	Fonty rastrowe CP850
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP850
@@ -66,8 +65,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP850.
 %package -n XFree86-fonts-CP852
 Summary:	Fixed CP852 fonts
 Summary(pl):	Fonty rastrowe CP852
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP852
@@ -79,8 +78,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP852.
 %package -n XFree86-fonts-CP855
 Summary:	Fixed CP855 fonts
 Summary(pl):	Fonty rastrowe CP855
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP855
@@ -92,8 +91,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP855.
 %package -n XFree86-fonts-CP857
 Summary:	Fixed CP857 fonts
 Summary(pl):	Fonty rastrowe CP857
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP857
@@ -105,8 +104,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP857.
 %package -n XFree86-fonts-CP860
 Summary:	Fixed CP860 fonts
 Summary(pl):	Fonty rastrowe CP860
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP860
@@ -118,8 +117,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP860.
 %package -n XFree86-fonts-CP861
 Summary:	Fixed CP861 fonts
 Summary(pl):	Fonty rastrowe CP861
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP861
@@ -131,8 +130,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP861.
 %package -n XFree86-fonts-CP862
 Summary:	Fixed CP862 fonts
 Summary(pl):	Fonty rastrowe CP862
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP862
@@ -144,8 +143,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP862.
 %package -n XFree86-fonts-CP863
 Summary:	Fixed CP863 fonts
 Summary(pl):	Fonty rastrowe CP863
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP863
@@ -157,8 +156,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP863.
 %package -n XFree86-fonts-CP864
 Summary:	Fixed CP864 fonts
 Summary(pl):	Fonty rastrowe CP864
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP864
@@ -170,8 +169,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP864.
 %package -n XFree86-fonts-CP865
 Summary:	Fixed CP865 fonts
 Summary(pl):	Fonty rastrowe CP865
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP865
@@ -183,8 +182,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP865.
 %package -n XFree86-fonts-CP866
 Summary:	Fixed CP866 fonts
 Summary(pl):	Fonty rastrowe CP866
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP866
@@ -196,8 +195,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP866.
 %package -n XFree86-fonts-CP869
 Summary:	Fixed CP869 fonts
 Summary(pl):	Fonty rastrowe CP869
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP869
@@ -209,8 +208,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP869.
 %package -n XFree86-fonts-CP874
 Summary:	Fixed CP874 fonts
 Summary(pl):	Fonty rastrowe CP874
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-CP874
@@ -222,8 +221,8 @@ Pakiet ten zawiera czcionki fixed z kodowaniem CP874.
 %package -n XFree86-fonts-Mazovia
 Summary:	Fixed Mazovia fonts
 Summary(pl):	Fonty rastrowe Mazovia
-Group:		X11/XFree86
-Requires(post,postun):	%{_bindir}/mkfontdir
+Group:		Fonts
+Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
 
 %description -n XFree86-fonts-Mazovia
