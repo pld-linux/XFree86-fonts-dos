@@ -241,12 +241,12 @@ for i in *.bdf
 do
 	for j in 737 775 850 852 855 857 860 861 862 863 864 865 866 869 874
 	do
-		ucs2any.pl $i map-CP$j-0 CP$j-0
+		ucs2any $i map-CP$j-0 CP$j-0
 		name=`basename $i .bdf`-CP$j-0
 		bdftopcf -t $name.bdf | gzip -9 > $name.pcf.gz
 		rm -f $name.bdf
 	done
-	ucs2any.pl $i map-Mazovia-0 Mazovia-0
+	ucs2any $i map-Mazovia-0 Mazovia-0
 	name=`basename $i .bdf`-Mazovia-0
 	bdftopcf -t $name.bdf | gzip -9 > $name.pcf.gz
 	rm -f $name.bdf
