@@ -2,7 +2,7 @@
 %define		_prefix		/usr/X11R6
 
 Summary:	XFree86 misc fonts with DOS encodings
-Summary(pl):	Fonty misc z DOSowym kodowaniem
+Summary(pl):	Fonty misc z DOS-owym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
 Release:	2
@@ -21,7 +21,7 @@ This package contains fixed fonts with DOS encodings.
 Fonts were taken from XFree86.
 
 %description -l pl
-Pakiet ten zawiera czcionki fixed z DOSowym kodowaniem.
+Pakiet ten zawiera czcionki fixed z DOS-owym kodowaniem.
 Fonty zosta³y wziête z dystrybucji XFree86.
 
 %package -n XFree86-fonts-CP737
