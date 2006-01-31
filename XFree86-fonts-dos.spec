@@ -2,7 +2,7 @@ Summary:	XFree86 misc fonts with DOS encodings
 Summary(pl):	Fonty misc z DOS-owym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
-Release:	3
+Release:	4
 License:	Public Domain
 Group:		Fonts
 Source0:	XFree86-fonts-misc-%{version}.tar.bz2
@@ -255,6 +255,9 @@ done
 install -d $RPM_BUILD_ROOT%{_fontsdir}/misc
 install *.pcf.gz $RPM_BUILD_ROOT%{_fontsdir}/misc
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %post -n XFree86-fonts-CP737
 fontpostinst misc
 
@@ -350,9 +353,6 @@ fontpostinst misc
 
 %postun -n XFree86-fonts-Mazovia
 fontpostinst misc
-
-%clean
-rm -rf $RPM_BUILD_ROOT
 
 %files -n XFree86-fonts-CP737
 %defattr(644,root,root,755)
