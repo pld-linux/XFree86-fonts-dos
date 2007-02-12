@@ -1,5 +1,5 @@
 Summary:	XFree86 misc fonts with DOS encodings
-Summary(pl):	Fonty misc z DOS-owym kodowaniem
+Summary(pl.UTF-8):   Fonty misc z DOS-owym kodowaniem
 Name:		XFree86-fonts-dos
 Version:	4.2.0
 Release:	4
@@ -19,13 +19,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains fixed fonts with DOS encodings.
 Fonts were taken from XFree86.
 
-%description -l pl
+%description -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z DOS-owym kodowaniem.
-Fonty zosta³y wziête z dystrybucji XFree86.
+Fonty zostaÅ‚y wziÄ™te z dystrybucji XFree86.
 
 %package -n XFree86-fonts-CP737
 Summary:	Fixed CP737 fonts
-Summary(pl):	Fonty rastrowe CP737
+Summary(pl.UTF-8):   Fonty rastrowe CP737
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -33,12 +33,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP737
 This package contains fixed fonts with CP737 encoding.
 
-%description -n XFree86-fonts-CP737 -l pl
+%description -n XFree86-fonts-CP737 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP737.
 
 %package -n XFree86-fonts-CP775
 Summary:	Fixed CP775 fonts
-Summary(pl):	Fonty rastrowe CP775
+Summary(pl.UTF-8):   Fonty rastrowe CP775
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -46,12 +46,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP775
 This package contains fixed fonts with CP775 encoding.
 
-%description -n XFree86-fonts-CP775 -l pl
+%description -n XFree86-fonts-CP775 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP775.
 
 %package -n XFree86-fonts-CP850
 Summary:	Fixed CP850 fonts
-Summary(pl):	Fonty rastrowe CP850
+Summary(pl.UTF-8):   Fonty rastrowe CP850
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -59,12 +59,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP850
 This package contains fixed fonts with CP850 encoding.
 
-%description -n XFree86-fonts-CP850 -l pl
+%description -n XFree86-fonts-CP850 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP850.
 
 %package -n XFree86-fonts-CP852
 Summary:	Fixed CP852 fonts
-Summary(pl):	Fonty rastrowe CP852
+Summary(pl.UTF-8):   Fonty rastrowe CP852
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -72,12 +72,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP852
 This package contains fixed fonts with CP852 encoding.
 
-%description -n XFree86-fonts-CP852 -l pl
+%description -n XFree86-fonts-CP852 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP852.
 
 %package -n XFree86-fonts-CP855
 Summary:	Fixed CP855 fonts
-Summary(pl):	Fonty rastrowe CP855
+Summary(pl.UTF-8):   Fonty rastrowe CP855
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -85,12 +85,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP855
 This package contains fixed fonts with CP855 encoding.
 
-%description -n XFree86-fonts-CP855 -l pl
+%description -n XFree86-fonts-CP855 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP855.
 
 %package -n XFree86-fonts-CP857
 Summary:	Fixed CP857 fonts
-Summary(pl):	Fonty rastrowe CP857
+Summary(pl.UTF-8):   Fonty rastrowe CP857
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -98,12 +98,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP857
 This package contains fixed fonts with CP857 encoding.
 
-%description -n XFree86-fonts-CP857 -l pl
+%description -n XFree86-fonts-CP857 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP857.
 
 %package -n XFree86-fonts-CP860
 Summary:	Fixed CP860 fonts
-Summary(pl):	Fonty rastrowe CP860
+Summary(pl.UTF-8):   Fonty rastrowe CP860
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -111,12 +111,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP860
 This package contains fixed fonts with CP860 encoding.
 
-%description -n XFree86-fonts-CP860 -l pl
+%description -n XFree86-fonts-CP860 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP860.
 
 %package -n XFree86-fonts-CP861
 Summary:	Fixed CP861 fonts
-Summary(pl):	Fonty rastrowe CP861
+Summary(pl.UTF-8):   Fonty rastrowe CP861
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -124,12 +124,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP861
 This package contains fixed fonts with CP861 encoding.
 
-%description -n XFree86-fonts-CP861 -l pl
+%description -n XFree86-fonts-CP861 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP861.
 
 %package -n XFree86-fonts-CP862
 Summary:	Fixed CP862 fonts
-Summary(pl):	Fonty rastrowe CP862
+Summary(pl.UTF-8):   Fonty rastrowe CP862
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -137,12 +137,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP862
 This package contains fixed fonts with CP862 encoding.
 
-%description -n XFree86-fonts-CP862 -l pl
+%description -n XFree86-fonts-CP862 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP862.
 
 %package -n XFree86-fonts-CP863
 Summary:	Fixed CP863 fonts
-Summary(pl):	Fonty rastrowe CP863
+Summary(pl.UTF-8):   Fonty rastrowe CP863
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -150,12 +150,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP863
 This package contains fixed fonts with CP863 encoding.
 
-%description -n XFree86-fonts-CP863 -l pl
+%description -n XFree86-fonts-CP863 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP863.
 
 %package -n XFree86-fonts-CP864
 Summary:	Fixed CP864 fonts
-Summary(pl):	Fonty rastrowe CP864
+Summary(pl.UTF-8):   Fonty rastrowe CP864
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -163,12 +163,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP864
 This package contains fixed fonts with CP864 encoding.
 
-%description -n XFree86-fonts-CP864 -l pl
+%description -n XFree86-fonts-CP864 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP864.
 
 %package -n XFree86-fonts-CP865
 Summary:	Fixed CP865 fonts
-Summary(pl):	Fonty rastrowe CP865
+Summary(pl.UTF-8):   Fonty rastrowe CP865
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -176,12 +176,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP865
 This package contains fixed fonts with CP865 encoding.
 
-%description -n XFree86-fonts-CP865 -l pl
+%description -n XFree86-fonts-CP865 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP865.
 
 %package -n XFree86-fonts-CP866
 Summary:	Fixed CP866 fonts
-Summary(pl):	Fonty rastrowe CP866
+Summary(pl.UTF-8):   Fonty rastrowe CP866
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -189,12 +189,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP866
 This package contains fixed fonts with CP866 encoding.
 
-%description -n XFree86-fonts-CP866 -l pl
+%description -n XFree86-fonts-CP866 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP866.
 
 %package -n XFree86-fonts-CP869
 Summary:	Fixed CP869 fonts
-Summary(pl):	Fonty rastrowe CP869
+Summary(pl.UTF-8):   Fonty rastrowe CP869
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -202,12 +202,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP869
 This package contains fixed fonts with CP869 encoding.
 
-%description -n XFree86-fonts-CP869 -l pl
+%description -n XFree86-fonts-CP869 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP869.
 
 %package -n XFree86-fonts-CP874
 Summary:	Fixed CP874 fonts
-Summary(pl):	Fonty rastrowe CP874
+Summary(pl.UTF-8):   Fonty rastrowe CP874
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -215,12 +215,12 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-CP874
 This package contains fixed fonts with CP874 encoding.
 
-%description -n XFree86-fonts-CP874 -l pl
+%description -n XFree86-fonts-CP874 -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem CP874.
 
 %package -n XFree86-fonts-Mazovia
 Summary:	Fixed Mazovia fonts
-Summary(pl):	Fonty rastrowe Mazovia
+Summary(pl.UTF-8):   Fonty rastrowe Mazovia
 Group:		Fonts
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/misc
@@ -228,7 +228,7 @@ Requires:	%{_fontsdir}/misc
 %description -n XFree86-fonts-Mazovia
 This package contains fixed fonts with Mazovia encoding.
 
-%description -n XFree86-fonts-Mazovia -l pl
+%description -n XFree86-fonts-Mazovia -l pl.UTF-8
 Pakiet ten zawiera czcionki fixed z kodowaniem Mazovia.
 
 %prep
