@@ -252,6 +252,7 @@ do
 done
 
 %install
+rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_fontsdir}/misc
 install *.pcf.gz $RPM_BUILD_ROOT%{_fontsdir}/misc
 
